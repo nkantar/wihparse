@@ -59,6 +59,7 @@ In reality, you'll probably mostly run `make all` and look at `report.txt`.
 ### Example Workflow
 
 ```
+# ensure THREAD_ID in wihparse.py is the one you want
 # ensure Python 3.6, Poetry, and GNU Make are present
 $ make install          # install everything
 $ make all              # run the whole process
