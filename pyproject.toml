@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "wihparse"
+version = "1.0.0"
+description = "HN 'Who is Hiring?' thread parser"
+authors = ["Nik Kantar <nik@nkantar.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.24.0"
+tinydb = "^4.2.0"
